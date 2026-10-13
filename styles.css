@@ -681,21 +681,6 @@ button { font: inherit; color: inherit; }
 }
 .polaroid:hover::after { opacity: 1; }
 
-.polaroid__caption {
-  position: absolute;
-  bottom: -32px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-family: var(--font-display);
-  font-size: .7rem;
-  font-weight: 600;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--muted);
-  opacity: .7;
-  white-space: nowrap;
-  pointer-events: none;
-}
 
 /* ── stamp/meme photos ─────────────────────────────────────── */
 .stamp {
@@ -751,7 +736,6 @@ button { font: inherit; color: inherit; }
 
 @media (max-width: 420px) {
   .polaroid img { width: 160px; height: 160px; }
-  .polaroid__caption { font-size: .6rem; bottom: -26px; }
   .stamp img { width: 65px; height: 65px; }
   /* On mobile, only show 2-3 polaroids */
   .polaroid--5 { display: none; }
