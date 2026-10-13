@@ -753,9 +753,9 @@ button { font: inherit; color: inherit; }
   .polaroid img { width: 160px; height: 160px; }
   .polaroid__caption { font-size: .6rem; bottom: -26px; }
   .stamp img { width: 65px; height: 65px; }
-  .stamp:nth-child(n+5) { display: none; } /* hide some stamps on very small screens */
   /* On mobile, only show 2-3 polaroids */
   .polaroid--5 { display: none; }
+  .stamp--3 { display: none; } /* hide third stamp on very small screens */
 }
 
 /* ── reduced motion for photos ─────────────────────────────── */
