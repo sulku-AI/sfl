@@ -42,6 +42,11 @@
     <img src="photos/WhatsApp Image 2026-10-14 at 01.52.21 (3).jpeg" alt="" loading="lazy">
   </figure>
 </div>
+
+<!-- ── doodle sprite ───────────────────────────────────────────── -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="d-heart" viewBox="0 0 24 24">
+    <path d="M12 20.2S4.6 15.6 4.6 10.3A4.7 4.7 0 0 1 12 7.1a4.7 4.7 0 0 1 7.4 3.2c0 5.3-7.4 9.9-7.4 9.9z" />
   </symbol>
   <symbol id="d-sparkle" viewBox="0 0 24 24">
     <path d="M12 3.2l1.9 5.4 5.4 1.9-5.4 1.9L12 17.8l-1.9-5.4L4.7 10.5l5.4-1.9z" />
@@ -179,36 +184,37 @@
     </header>
 
     <div class="cards">
-      <article class="card reveal">
+      <article class="card reveal" tabindex="0" role="button" aria-expanded="false">
         <span class="card__ico card__ico--amber">
-          <svg class="ico" aria-hidden="true"><use href="#d-sparkle" /></svg>
+          <svg class="ico" aria-hidden="true"><use href="#d-sun" /></svg>
         </span>
-        <h3>Your laugh</h3>
-        <p>You laugh before you even finish your own joke. I hope you never stop doing that.</p>
+        <h3>Gülüşün</h3>
+        <div class="card__content">
+          <p class="card__text">Her bi kahkahan ya da küçük gülümsemelerin, utanınca gözlerini kaçırmaların ve sessizleşişin, her bir an aklımda ve yanımda olduğun sürece (i hope forever) benimle kalacaklar. Hiç söylemesem de kendimi kötü hissettiğimde gecenin bi yarısında senin gülümsemeni ve kahkahalarını hatırlayınca tam da bunları yazarken olduğu gibi gözüm seninle parlıyo ve kendimi gülümserken buluyorum.</p>
+        </div>
+        <span class="card__expand-hint" aria-hidden="true">Click for more</span>
       </article>
 
-      <article class="card reveal">
-        <span class="card__ico card__ico--navy">
-          <svg class="ico" aria-hidden="true"><use href="#d-moon" /></svg>
-        </span>
-        <h3>Late-night talks</h3>
-        <p>Conversations that start with "one more thing" and end somewhere near sunrise.</p>
-      </article>
-
-      <article class="card reveal">
+      <article class="card reveal" tabindex="0" role="button" aria-expanded="false">
         <span class="card__ico card__ico--amber">
-          <svg class="ico" aria-hidden="true"><use href="#d-cup" /></svg>
-        </span>
-        <h3>Slow mornings</h3>
-        <p>Coffee going cold because we were too busy talking. Worth it every time.</p>
-      </article>
-
-      <article class="card reveal">
-        <span class="card__ico card__ico--navy">
           <svg class="ico" aria-hidden="true"><use href="#d-heart" /></svg>
         </span>
-        <h3>Our nicknames</h3>
-        <p>Laris and Emran — the versions of us that only we get to use.</p>
+        <h3>Your love</h3>
+        <div class="card__content">
+          <p class="card__text">Uyurken bile sevgini bana o kadar güzel hissettiriyosun ki, sabah uyandığındaki keyifsizliğin ya da bana yeteri kadar cevap veremediğini düşünmen (söylemesen de, evet aşkım seni analizliyorum). Gerçekten bazen küçük tatlış bi çocuk gibi oluyosun ve beni o kadar istiyosun ki bazen kendime dönüp "bu kız beni bu kadar seviyosa vardır bi bildiği" diyip kendime olumlu bakasım geliyo.</p>
+        </div>
+        <span class="card__expand-hint" aria-hidden="true">Click for more</span>
+      </article>
+
+      <article class="card reveal" tabindex="0" role="button" aria-expanded="false">
+        <span class="card__ico card__ico--navy">
+          <svg class="ico" aria-hidden="true"><use href="#d-flower" /></svg>
+        </span>
+        <h3>Listening GF</h3>
+        <div class="card__content">
+          <p class="card__text">Sürekli yapleyen evrenin en nerd insanı olmama rağmen asla ilgini çekmeyecek konularda bile beni dinleyip anlamaya çalışman ve benimle gurur duyduğunu söylemen (ben hiç bu iltifatı almamıştım şimdi düşündüm de, kendimden ve ailemden bile) beni çok güzel hissettiriyosun ve sıkıldığını düşünmesem +zamanımız kısıtlı olmasa sana tüm projelerimi saatlerce anlatmak istiyorum.</p>
+        </div>
+        <span class="card__expand-hint" aria-hidden="true">Click for more</span>
       </article>
     </div>
   </section>

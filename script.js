@@ -161,4 +161,22 @@
       });
     }
   }
+
+  /* ── 6. expandable cards ─────────────────────────────────── */
+  var cards = document.querySelectorAll('.card[tabindex="0"]');
+
+  cards.forEach(function (card) {
+    function toggle() {
+      var expanded = card.classList.toggle('is-expanded');
+      card.setAttribute('aria-expanded', String(expanded));
+    }
+
+    card.addEventListener('click', toggle);
+    card.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault();
+        toggle();
+      }
+    });
+  });
 })();
